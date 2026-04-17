@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("/background.jpg");
+    background-size: cover;
+    background-position: center;
+
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.container {
+    width: 420px;
+
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+
+    padding: 20px;
+    border-radius: 15px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: rgba(30, 41, 59, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 65%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.join-btn {
+    background: #22c55e;
+    color: white;
+}
+
+.talk-btn {
+    background: #3b82f6;
+    color: white;
+}
+
+.stop-btn {
+    background: #ef4444;
+    color: white;
+}
+
+.chat-box {
+    height: 250px;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.msg {
+    margin: 6px;
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.me {
+    background: #3b82f6;
+    margin-left: auto;
+}
+
+.other {
+    background: #22c55e;
+}
+
+audio {
+    width: 100%;
+    margin-top: 5px;
+}
