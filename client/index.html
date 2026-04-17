@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Converso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌍 Converso</h1>
+
+    <div class="card">
+        <input id="roomInput" placeholder="Enter room code">
+        <button class="join-btn" onclick="joinRoom()">Join</button>
+    </div>
+
+    <div class="card">
+        <h3>🎧 Audio</h3>
+        <audio id="localAudio" autoplay muted></audio>
+        <audio id="remoteAudio" autoplay></audio>
+    </div>
+
+    <div class="card">
+        <h3>💬 Live Translation</h3>
+
+        <button class="talk-btn" onclick="startListening()">🎤 Start</button>
+        <button class="stop-btn" onclick="stopListening()">⛔ Stop</button>
+
+        <div id="chatBox" class="chat-box"></div>
+    </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
