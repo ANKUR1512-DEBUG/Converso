@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "socket.io": "^4.8.3"
+  },
+  "name": "converso",
+  "version": "1.0.0",
+  "description": "Real-Time Speech Translation Web Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANKUR1512-DEBUG/Converso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ANKUR1512-DEBUG/Converso/issues"
+  },
+  "homepage": "https://github.com/ANKUR1512-DEBUG/Converso#readme"
+}
